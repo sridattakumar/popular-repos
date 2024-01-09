@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.repository-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8ff;
+  border-radius: 24px;
+  margin: 15px;
+  padding: 24px;
+}
+.image {
+  width: 92px;
+  height: 92px;
+}
+.name {
+  color: #e73959;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+.stats-container {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin-bottom: 16px;
+}
+.stats-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+}
+.stats-count {
+  color: #1e293b;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
